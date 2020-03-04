@@ -1,0 +1,69 @@
+
+wget -O- http://localhost:2040/pregen/v1.0/products/site/BedBathCanada
+wget -O- http://localhost:2040//pregen/v1.0/siteconfig/v3/site/BuyBuyBaby/channel/DesktopWeb?caller=xt
+wget -O- http://localhost:2040//pregen/v1.0/siteconfig/v3/site/BedBathCanada/channel/DesktopWeb?caller=xt
+
+wget -O- http://localhost:2040/pregen/v1.0/products/site/BedBathCanada
+wget -O- http://localhost:2040/pregen/v1.0/childproduct/site/BedBathCanada
+wget -O- http://localhost:2040/pregen/v1.0/product/everliving/site/BedBathCanada
+wget -O- http://localhost:2040/pregen/v1.0/skus/site/BedBathCanada
+
+
+wget -O- http://localhost:2040/pregen/v1.0/products/site/BedBathUS
+wget -O- http://localhost:2040/pregen/v1.0/childproduct/site/BedBathUS
+wget -O- http://localhost:2040/pregen/v1.0/product/everliving/site/BedBathUS
+wget -O- http://localhost:2040/pregen/v1.0/skus/site/BedBathUS
+
+
+wget -O- http://localhost:2040/pregen/v1.0/product/everliving/site/BuyBuyBaby
+wget -O- http://localhost:2040/pregen/v1.0/products/site/BuyBuyBaby
+wget -O- http://localhost:2040/pregen/v1.0/childproduct/site/BuyBuyBaby
+wget -O- http://localhost:2040/pregen/v1.0/skus/site/BuyBuyBaby
+
+
+
+wget -O- http://localhost:2040//pregen/v1.0/label/site/BuyBuyBaby
+wget -O- http://localhost:2040//pregen/v1.0/label/site/BedBathUS
+wget -O- http://localhost:2040//pregen/v1.0/label/site/BedBathCanada
+
+
+wget -O- http://localhost:2040//pregen/v1.0/quickpick/site/BedBathCanada
+
+
+wget -O- http://localhost:2040/pregen/v1.0/experience/site/BedBathUS
+wget -O- http://localhost:2040/pregen/v1.0/experience/site/BuyBuyBaby
+wget -O- http://localhost:2040/pregen/v1.0/experience/site/BedBathCanada
+wget -O- http://localhost:2040/pregen/v1.0/country/currency/site/BedBathUS
+wget -O- http://localhost:2040/pregen/v1.0/country/currency/site/BuyBuyBaby
+
+
+wget -O- http://localhost:2040/pregen/v1.0/siteconfig/v2/site/BuyBuyBaby/channel/DesktopWeb?caller=xt
+wget -O- http://localhost:2040/pregen/v1.0/siteconfig/v2/site/BuyBuyBaby/channel/MobileWeb?caller=xt
+wget -O- http://localhost:2040/pregen/v1.0/siteconfig/v2/site/BedBathCanada/channel/DesktopWeb?caller=xt
+wget -O- http://localhost:2040/pregen/v1.0/siteconfig/v2/site/BedBathCanada/channel/MobileWeb?caller=xt
+wget -O- http://localhost:2040/pregen/v1.0/siteconfig/v2/site/BedBathUS/channel/MobileWeb?caller=xt
+wget -O- http://localhost:2040/pregen/v1.0/siteconfig/v2/site/BedBathUS/channel/DesktopWeb?caller=xt
+
+
+
+wget -O- http://localhost:2040/pregen/v1.0/businessprofile/site/BedBathUS
+
+wget -O- http://localhost:2040/pregen/v1.0/country/currency/site/BedBathUS
+wget -O- http://localhost:2040/pregen/v1.0/country/currency/site/BuyBuyBaby
+
+wget -O- http://localhost:2040/pregen/v1.0/content/site/BedBathCanada
+wget -O- http://localhost:2040/pregen/v1.0/content/site/BedBathUS
+wget -O- http://localhost:2040/pregen/v1.0/content/site/BuyBuyBaby
+
+
+wget -O- http://localhost:2040/pregen/v1.0/footer/site/BedBathCanada
+wget -O- http://localhost:2040/pregen/v1.0/footer/site/BedBathUS
+wget -O- http://localhost:2040/pregen/v1.0/footer/site/BuyBuyBaby
+
+
+wget -O- http://localhost:2040/pregen/v1.0/header/site/BedBathCanada
+wget -O- http://localhost:2040/pregen/v1.0/content/site/BedBathCanada
+wget -O- http://localhost:2040/pregen/v1.0/college/detail/site/BedBathCanada
+wget -O- http://localhost:2040/pregen/v1.0/leftnav/site/BedBathCanada/param/account_management
+wget -O- http://localhost:2040/pregen/v1.0/leftnav/site/BedBathCanada/param/registryTools
+
