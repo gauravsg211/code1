@@ -1,0 +1,25 @@
+.P1 {
+border:solid 2px green;
+position:relative;
+left:10px;
+width:200px;
+height:300px;
+color:Black;
+font-weight: bold;
+
+background-color:turquoise;
+border-radius: 10px;
+padding-left:25px;
+
+
+
+
+
+
+
+
+}
+.link1{
+    color:blue;
+    
+}

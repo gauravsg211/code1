@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+.d2{
+  position:relative;
+  top:10px;
+
+}
+.d1{
+  position:static;
+  height:50px;
+}
+.d3{
+  
+}
