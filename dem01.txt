@@ -1,0 +1,90 @@
+import React ,{Component} from 'react';
+import Person from './Person/Person';
+import Toolbar from './Toolbar/Toolbar'
+
+import { Container, Row, Col } from 'react-grid-system';
+
+import './App.css';
+
+class App extends Component{
+  state={
+    persons:[
+      {name:'Gaurav',age:31 ,card_no:1},
+     {name:'Rahul', age:42, card_no:2},
+     {name:"Deepak",age:"28",card_no:"3"},
+     {name:"Alex",age:"28",card_no:"4"},
+
+    ]
+  }
+  switchCardHandler=(newName)=>
+  {
+console.log("this is clicked");
+//this.state.persons[0].name='maximillian';(donot mutate states directly)
+this.setState({persons:[
+  {name:newName,age:23 ,card_no:1},
+ {name:'Rahul', age:42, card_no:2},
+ {name:"Deepak",age:"28",card_no:"3"},
+ {name:"Alex",age:"28",card_no:"4"},
+
+]})
+  }
+
+  nameChangedHandler=(event)=>
+  {
+    this.setState({persons:[
+      {name:event.target.value,age:23 ,card_no:1},
+     {name:"arv", age:42, card_no:2},
+     {name:event.target.value,age:"28",card_no:"3"},
+     {name:event.target.value,age:"28",card_no:"4"},
+    
+    ]}
+    )
+  }
+  render(){
+  
+return (
+  
+ <div>
+   <Toolbar/>
+   
+    <div className="App">
+      
+      <Container>
+  <Row>
+    <Col sm={4}>
+      <Person name={this.state.persons[0].name} age={this.state.persons[0].age} card_no={this.state.persons[0].card_no} click={this.switchCardHandler.bind(this,'track')} changed={this.nameChangedHandler}/ >
+    </Col>
+    <Col sm={4}>
+    <Person name={this.state.persons[1].name} age={this.state.persons[1].age} card_no={this.state.persons[1].card_no} changed={this.nameChangedHandler}/ >
+    </Col>
+    <Col sm={4}>
+    <Person name={this.state.persons[2].name} age={this.state.persons[2].age} card_no={this.state.persons[2].card_no} changed={this.nameChangedHandler}/ >
+    </Col>
+    </Row>
+    <br/>
+    <Row>
+    <Col sm={4}>
+    <Person name={this.state.persons[3].name} age={this.state.persons[3].age} card_no={this.state.persons[3].card_no} changed={this.nameChangedHandler} > Welcome to the world of coding:</Person>
+    </Col>
+    <Col sm={4}>
+    <Person name="ridima" age="21" card_no="5" changed={this.nameChangedHandler}> repeat:</Person>
+    </Col>
+    <Col sm={4}>
+    <button onClick={()=>this.switchCardHandler('laterone')}>switch data</button> 
+    </Col>
+  </Row>
+  
+</Container>
+
+
+      </div>
+
+      </div>
+
+      
+   
+  );
+}
+}
+
+export default App;
