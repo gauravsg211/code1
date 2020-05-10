@@ -12,7 +12,7 @@ class toolbar extends Component{
             <div className="toolbar_navigation-items">
 
                 <ul>
-                    <li><a href="/">Products</a></li>
+                    <li><a href="/">hex</a></li>
                     <li><a href="/">User</a></li>
                     <li><a href="/">Policy</a></li>
                     <li><a href="/">Life style</a></li>
